@@ -16,11 +16,11 @@ Im Rahmen des europäischen Projektes [MICADO](https://www.micadoproject.eu/) (*
 
 
 ## Datenmodell
-Beim Entwurf orientieren wir uns an der SensorThings API. Das relationale Datenmodell besteht aus den 3 Tabellen *things, datastreams, observations*. Es kann diverse Projekte (*things *) und Parameter (*datastreams *) aufnehmen und speichert alle Beobachtungswerte in einer einzigen Tabelle (*observations *). Für jede Zeitreihe wird hierauf ein View angelegt, der im nächsten Schritt als WFS FeatureType herangezogen wird. Das Datenmodell kann mit dem folgenden [SQL-File](sql/tables.sql) angelegt werden.
+Beim Entwurf orientieren wir uns an der SensorThings API. Das relationale Datenmodell besteht aus den 3 Tabellen *things, datastreams, observations*. Es kann diverse Projekte (*things*) und Parameter (*datastreams*) aufnehmen und speichert alle Beobachtungswerte in einer einzigen Tabelle (*observations*). Für jede Zeitreihe wird hierauf ein View angelegt, der im nächsten Schritt als WFS FeatureType herangezogen wird. Das Datenmodell kann mit dem folgenden [SQL-File](sql/tables.sql) angelegt werden.
 
 Wichtig war mir hierbei, dass in diesem einen Datenspeicher alle Zeitreihen aus verschiedensten Projekte gespeichert werden können. Die dann alle über eine identische Schnittstelle bereitgestellt werden. Genauso wie es bei der SensorThings API der Fall ist.
 
-Über den Zustand der Ausgangsdaten (*formatierte Excel Files*) wollen wir hier besser hinwegsehen. Dazu passt folgendes Zitat vom Autor „*Baut man hier nicht das Dach vor dem Fundament? Schafft den Eindruck, alles wäre super digital verfügbar und tatsächlich führt an der Basis Sachbearbeiter Harald Wundertsich seine Originaldaten noch in einem Excel File? *“ 
+Über den Zustand der Ausgangsdaten (*formatierte Excel Files*) wollen wir hier besser hinwegsehen. Dazu passt folgendes Zitat vom Autor „*Baut man hier nicht das Dach vor dem Fundament? Schafft den Eindruck, alles wäre super digital verfügbar und tatsächlich führt an der Basis Sachbearbeiter Harald Wundertsich seine Originaldaten noch in einem Excel File?*“ 
 
 
 ## Deegree WFS
