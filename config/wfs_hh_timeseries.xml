@@ -1,0 +1,46 @@
+<deegreeWFS xmlns="http://www.deegree.org/services/wfs"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    configVersion="3.4.0" xsi:schemaLocation="http://www.deegree.org/services/wfs http://schemas.deegree.org/services/wfs/3.4.0/wfs_configuration.xsd">
+  <SupportedVersions>
+    <Version>1.1.0</Version>
+    <Version>2.0.0</Version>
+  </SupportedVersions>
+  <FeatureStoreId>timeseries/datasource_auszuege_oeru</FeatureStoreId>
+  <FeatureStoreId>timeseries/datasource_belegung_oeru</FeatureStoreId>
+  <FeatureStoreId>timeseries/datasource_belegung_zea_ea</FeatureStoreId>
+  <FeatureStoreId>timeseries/datasource_davon_familiennachzuege</FeatureStoreId>
+  <FeatureStoreId>timeseries/datasource_davon_zuzuege_aus_zea_za_ea</FeatureStoreId>
+  <FeatureStoreId>timeseries/datasource_differenz_zugzug_auszug_oeru</FeatureStoreId>
+  <FeatureStoreId>timeseries/datasource_nicht_wohnberechtigte_zuwanderer</FeatureStoreId>
+  <FeatureStoreId>timeseries/datasource_summe_zuwanderer_wohnungslose</FeatureStoreId>
+  <FeatureStoreId>timeseries/datasource_wohnberechtigte_zuwanderer</FeatureStoreId>
+  <FeatureStoreId>timeseries/datasource_wohnungslose_jep</FeatureStoreId>
+  <FeatureStoreId>timeseries/datasource_zuzuege_ausserhalb_hh</FeatureStoreId>
+  <FeatureStoreId>timeseries/datasource_zuzuege_oeru</FeatureStoreId>
+  <EnableTransactions>false</EnableTransactions>
+  <EnableResponsePaging>true</EnableResponsePaging>
+  <QueryCRS>EPSG:25832</QueryCRS>
+  <QueryCRS>EPSG:4326</QueryCRS>
+  <QueryCRS>EPSG:4258</QueryCRS>
+  <QueryCRS>EPSG:3857</QueryCRS>
+  <QueryCRS>EPSG:3044</QueryCRS>
+  <QueryCRS>EPSG:25833</QueryCRS>
+  <QueryCRS>EPSG:31467</QueryCRS>
+  <QueryMaxFeatures>1000</QueryMaxFeatures>
+  <GMLFormat gmlVersion="GML_31">
+    <MimeType>application/gml+xml; version=3.1</MimeType>
+    <MimeType>text/xml; subtype=gml/3.1.1</MimeType>
+    <MimeType>text/xml; subtype=&quot;gml/3.1.1&quot;</MimeType>
+  </GMLFormat>
+  <GMLFormat gmlVersion="GML_32">
+    <MimeType>application/gml+xml; version=3.2</MimeType>
+    <MimeType>text/xml; subtype=gml/3.2.1</MimeType>
+    <MimeType>text/xml; subtype=&quot;gml/3.2.1&quot;</MimeType>
+  </GMLFormat>
+  <GeoJSONFormat allowOtherCrsThanWGS84="true">
+    <MimeType>application/geo+json</MimeType>
+  </GeoJSONFormat>
+  <CsvFormat>
+    <MimeType>text/csv</MimeType>
+  </CsvFormat>
+</deegreeWFS>
