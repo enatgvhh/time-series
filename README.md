@@ -20,7 +20,7 @@ Beim Entwurf orientieren wir uns an der SensorThings API. Das relationale Datenm
 
 Wichtig war mir hierbei, dass in diesem einen Datenspeicher alle Zeitreihen aus verschiedensten Projekte gespeichert werden können. Die dann alle über eine identische Schnittstelle bereitgestellt werden. Genauso wie es bei der SensorThings API der Fall ist.
 
-Über den Zustand der Ausgangsdaten (*formatierte Excel Files*) wollen wir hier besser hinwegsehen. Dazu passt folgendes Zitat vom Autor „*Baut man hier nicht das Dach vor dem Fundament? Schafft den Eindruck, alles wäre super digital verfügbar und tatsächlich führt an der Basis Sachbearbeiter Harald Wundertsich seine Originaldaten noch in einem Excel File?*“ 
+Über den Zustand der Ausgangsdaten (*formatierte Excel Files*) wollen wir hier besser hinwegsehen. Dazu passt folgendes Zitat vom Autor: „*Baut man hier nicht das Dach vor dem Fundament? Schafft den Eindruck, alles wäre super digital verfügbar und tatsächlich führt an der Basis Sachbearbeiter Harald Wundertsich seine Originaldaten noch in einem Excel File?*“ 
 
 
 ## Deegree WFS

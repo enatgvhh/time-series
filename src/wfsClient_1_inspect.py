@@ -10,7 +10,7 @@ def getObservations(linkWfs: str, parameter: str, proxies: dict) -> pd.Series:
     resultDict = {}
     
     jsonData = None
-    r = requests.get(linkWfs), proxies=proxies)
+    r = requests.get(linkWfs, proxies=proxies)
     
     if r.status_code == 200:
         jsonData = json.loads(r.text)
